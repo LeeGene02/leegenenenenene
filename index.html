@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <title> Lee Gene's Resume </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="left_Side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="LeeGene.jpg" width=100% alt="image of Lee Gene">
+          </div>
+          <h2>Lee Gene<br><span>Diploma Student</span></h2>
+        </div>
+
+        <div class="contactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="text"><a  href="tel:+60165249090"">+6016 524 9090</a></span>
+
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+              <span class="text"><a  href="mailto:leeg705@gmail.com">leeg705@gmail.com</a></span>
+
+
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+              <span class="text"><a href="https://www.youtube.com">My Website</a></span> <!--remember to put webname here-->
+
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span class="text">Penang</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2015 - 2019 </h5>
+              <h4>Sijil Pelajaran Malaysia</h4>
+              <h4><a href="https://en.wikipedia.org/wiki/St._Xavier%27s_Institution">SMK Saint Xavier Pulau Pinang</a></h4>
+            </li>
+            <li>
+              <h5>2021 - 2023</h5>
+              <h4>Diploma in Information Technology</h4>
+              <h4><a href="https://en.wikipedia.org/wiki/Taylor%27s_College">Taylor's College</a></h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo language">
+          <h3 class="title">Languages</h3>
+          <ul style="padding-left:0"> <!--finally done it--> <!--BUGG here-->
+            <li>
+              <span class="text">Chinese</span>
+              <span class="percent">
+                <div style="width: 90%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">English</span>
+              <span class="percent">
+                <div style="width: 70%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Bahasa Melayu</span>
+              <span class="percent">
+                <div style="width: 50%;"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <br>
+        <button>Print Resume</button>
+        <script>
+          var btn = document.querySelector("button");
+          btn.onclick = () =>{
+            window.print();
+          }
+          alert("Hi Sir welcome to my E-Resume, please be aware that most information here are dummy info. Thank you.");
+
+        </script>
+      </div>
+         <!-- <div tabindex="9" class = "animate">I</div> -->
+
+
+      <div class="right_Side">
+        <!-- <div class="about interest">
+          <h2 class="title2">Menu</h2>
+          <ul>
+            <li class="animate">Profile</li>
+            <li class="animate">Experience</li>
+            <li class="animate">Skills</li>
+            <li class="animate">Interest</li>
+          </ul>
+        </div> -->
+        <div class="about">
+        <h2 class="title2">Profile<a href="#below" name="above" class="animate" style="float:right"><i class="fa fa-arrow-circle-down" ></i></a></h2>
+        <p> Hi my name is Lee Gene, getting to work in a tech industry has always been my dream because the way technology evolve in such short period of time facinates me
+          . I hope to have the apportunity to work with you. This is dummy info.
+          <br>
+          <br>
+          Tap on the arrow beside "PROFILE" to use section link, theres one beside "INTEREST" too. Hover to the hyperlinks under contact info and education. Theres
+          a Javascript print button at the bottom of the darker blue side. Lastly don't forget to open up the console to try out the viewports.
+        </p>
+        </div>
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+            <h5>2022 - Present</h5>
+            <h5 >Taylor's College</h5>
+            </div>
+            <div class="text">
+            <h4>PALS Tutor</h4>
+            <p > I had experience tutoring juniors students that had trouble understanding the concepts of C-Programming, through these tutoring
+            sessions my skills with C has become more matured than before. </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year_company">
+            <h5>2019 - 2021</h5>
+            <h5>Microsoft</h5>
+            </div>
+            <div class="text">
+            <h4>Computer Engineer</h4>
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec velit nisl. In hac habitasse platea dictumst. Morbi laoreet, purus nec rhoncus placerat.
+              <br>
+              <br>
+              Praesent ut viverra nisi. Morbi nibh ante, facilisis at ullamcorper ac, feugiat at eros. Nam commodo maximus molestie. Aliquam vestibulum sapien placerat lacus consectetur, vel lacinia orci tristique. Nulla a auctor erat.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year_company">
+            <h5>2018 - 2019</h5>
+            <h5 >GrabFood Junior Web Developer</h5>
+            </div>
+            <div class="text">
+            <h4>Javascript Team Lead</h4>
+            <p >Praesent ut viverra nisi. Morbi nibh ante, facilisis at ullamcorper ac, feugiat at eros. Nam commodo maximus molestie. Aliquam vestibulum sapien placerat lacus consectetur, vel lacinia orci tristique. Nulla a auctor erat.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about skills">
+          <h2 class="title2">Diploma Aquired Skills</h2>
+          <div class="box">
+            <h4>Html</h4>
+            <div class="percent">
+              <div style="width:50%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CSS</h4>
+            <div class="percent">
+              <div style="width:30%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Javascript</h4>
+            <div class="percent">
+              <div style="width:10%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Java</h4>
+            <div class="percent">
+              <div style="width:60%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>C-Programming</h4>
+            <div class="percent">
+              <div style="width:80%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>MySQL</h4>
+            <div class="percent">
+              <div style="width:60%;"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Copywriting</h4>
+            <div class="percent">
+              <div style="width:80%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about interest">
+
+          <h2 class="title2">Interest <a href="#above" name="below"class="animate" style="float:right"><i class="fa fa-arrow-circle-up" ></i></a></h2>
+          <ul>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;Gaming</li>
+            <li><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;Cooking</li>
+            <li><i class="fa fa-film" aria-hidden="true"></i>&nbsp;Movies</li>
+            <li><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;Photography</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
